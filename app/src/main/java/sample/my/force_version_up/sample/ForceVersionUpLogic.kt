@@ -23,7 +23,7 @@ class ForceVersionUpLogic {
 
             if (serverVersionPart > currentVersionPart) {
                 return true
-            } else if (serverVersionPart > currentVersionPart) {
+            } else if (serverVersionPart < currentVersionPart) {
                 return false
             }
         }
