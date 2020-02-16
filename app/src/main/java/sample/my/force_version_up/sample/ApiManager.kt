@@ -17,7 +17,7 @@ object ApiManager {
 }
 
 interface ApiService {
-    @GET("shinya-takano/ForceVersionUpSample/master/app/src/main/res/raw/version.json")
+    @GET("shinya-takano/ForceVersionUpSample/master/app/src/main/res/raw/version.json") // view master
     fun getVersionJson(): Call<VersionModel>
 }
 
