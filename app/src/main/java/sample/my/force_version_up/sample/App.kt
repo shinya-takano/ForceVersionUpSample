@@ -59,4 +59,5 @@ class App : Application(), LifecycleObserver {
     }
 
 }
+// Event Bus Message class
 class AppForegroundMessage
